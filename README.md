@@ -17,6 +17,7 @@ $ npm start
 
 
 express-generator for server 
+
 localhost:4000
 ```sh
 
@@ -42,3 +43,13 @@ http://demo.andydev.pro
  - Express
  - MongoDB
  - Redis
+
+ ## Description
+ There are two existing users:
+ Username: admin
+ Password: admin
+ Permissions: view add remove
+ Username: client
+ Password: client
+ Permissions: view add
+ All new registered users can only view and add, cannot remove
