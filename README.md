@@ -1,11 +1,13 @@
 # celebrity-hologram
 
-create-react-app 搭建 client localhost:3000
+## Local setup
+create-react-app for client
+localhost:3000
 ```sh
 
-$ git clone https://github.com/andyliu-417/celebrity-hologram.git
+$ git clone https://github.com/andyliu-417/demo.git
 
-$ cd celebrity-hologram/client
+$ cd demo/client
 
 $ npm install
 
@@ -14,15 +16,29 @@ $ npm start
 ```
 
 
-express-generator 搭建 server localhost:4000
+express-generator for server 
+localhost:4000
 ```sh
 
-$ git clone https://github.com/andyliu-417/celebrity-hologram.git
+$ git clone https://github.com/andyliu-417/demo.git
 
-$ cd celebrity-hologram/server
+$ cd demo/server
 
 $ npm install
 
 $ npm start
 
 ```
+
+## Cloud setup
+Host it on AWS EC2
+http://demo.andydev.pro
+
+
+## Development Stack
+ - React
+ - Redux, Redux Saga
+ - Ant Design
+ - Express
+ - MongoDB
+ - Redis
