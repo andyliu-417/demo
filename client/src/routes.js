@@ -13,17 +13,7 @@ class Routes extends React.Component {
           <Switch>
             <Route exact path="/" component={Login} />
             <Route path="/login" component={Login} />
-            <Route
-              path="/events"
-              render={props => {
-                const isAuthenticated = !!getToken();
-                return isAuthenticated ? (
-                  <Events {...props} />
-                ) : (
-                  <Redirect to="/login" />
-                );
-              }}
-            />
+            <Route path="/events" component={Events} />
           </Switch>
         </Fragment>
       </BrowserRouter>
