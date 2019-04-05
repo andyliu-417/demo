@@ -1,0 +1,8 @@
+{
+  "mongoDbUri": "mongodb+srv://Andy:Three.1415926@cluster0-bn1ju.mongodb.net/celebrity-hologram?retryWrites=true",
+  "salt": "celebrity-hologram",
+  "role-permissions": {
+    "admin": ["view", "add", "remove"],
+    "basic": ["view", "add"]
+  }
+}

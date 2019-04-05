@@ -1,0 +1,9 @@
+.cp-events .events-list {
+  margin: 110px auto 50px;
+  padding: 0;
+  width: 94%;
+}
+.cp-events .events-list li {
+  list-style: none;
+  margin: 25px auto;
+}

@@ -1,0 +1,97 @@
+/* Login view Styles */
+.cp-login {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background-color: #e4edf2;
+}
+/* login from test */
+.cp-login .login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  width: 320px;
+  padding: 16px 0;
+  background: white;
+  border-radius: 5px;
+}
+.cp-login .form-error {
+  position: absolute;
+  top: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #D74646;
+  font-size: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 3px 4px;
+  z-index: 999;
+  white-space: nowrap;
+}
+.cp-login .login-form .ant-form-explain {
+  display: none;
+}
+.cp-login .login-form .form-title {
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #FFBB17;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.cp-login .login-form .has-error .ant-input:not([disabled]):hover {
+  border-bottom: 1px solid #D74646;
+}
+.cp-login .login-form .form-label {
+  font-size: 14px;
+  color: #90BBC7;
+  padding: 0 30px;
+}
+.cp-login .login-form .ant-form-item {
+  padding: 0 30px;
+  margin-bottom: 8px;
+}
+.cp-login .login-form .ant-form-item-with-help {
+  margin-bottom: 8px;
+}
+.cp-login .login-form .form-input:focus {
+  border-bottom: 1px solid #D74646;
+  color: #D74646;
+  background-color: transparent;
+}
+.cp-login .login-form .ant-input:focus {
+  box-shadow: none;
+}
+.cp-login .login-form .form-input {
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 100;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #dae7ef
+}
+.cp-login .form-submit {
+  width: 100%;
+  border-color: #7CB1BF;
+  margin: 20px auto;
+  background: #7CB1BF;
+  box-shadow: 0 6px 10px 0 #DBF3FA;
+  border-radius: 2px;
+}
+.cp-login .ant-btn-primary:hover, .cp-login .ant-btn-primary:focus {
+  background: #7CB1BF;
+  border-color: #7CB1BF;
+}
+.cp-login .form-register {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 0;
+}
