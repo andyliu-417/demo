@@ -32,7 +32,6 @@ function* removeEventSaga(action) {
     if (result) {
       let events = yield select(selectors.selectEvents);
       let newEvents = events.filter(el => el._id !== action.id);
-      (events.length, newEvents.length);
       yield put(actions.Event.set(newEvents));
     }
   } catch (error) {}
