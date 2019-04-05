@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Login, Events } from "./pages/";
-import { getToken } from "./utils";
 import { Auth } from "./components";
 
 class Routes extends React.Component {
