@@ -46,10 +46,17 @@ http://demo.andydev.pro
 
  ## Description
  There are two existing users:
+
  Username: admin
+
  Password: admin
+
  Permissions: view add remove
+ 
  Username: client
+
  Password: client
+
  Permissions: view add
+ 
  All new registered users can only view and add, cannot remove
